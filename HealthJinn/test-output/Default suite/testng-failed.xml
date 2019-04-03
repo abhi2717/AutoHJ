@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="udid" value="bb5f832e3ee56f952af3f8ae1983b4de9e4b0951"/>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="applicationHandling.Setup">
+        <methods>
+          <include name="loginViaOTP"/>
+          <include name="openApplication"/>
+          <include name="End"/>
+        </methods>
+      </class> <!-- applicationHandling.Setup -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

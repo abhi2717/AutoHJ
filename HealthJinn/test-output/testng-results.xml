@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61774" started-at="2019-04-02T13:26:45Z" finished-at="2019-04-02T13:27:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="61774" started-at="2019-04-02T13:26:45Z" finished-at="2019-04-02T13:27:47Z">
+      <class name="applicationHandling.Setup">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:applicationHandling.Setup@63440df3]" name="openApplication" is-config="true" duration-ms="42326" started-at="2019-04-02T13:26:45Z" finished-at="2019-04-02T13:27:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50444f5434573398]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="loginViaOTP()[pri:0, instance:applicationHandling.Setup@63440df3]" name="loginViaOTP" duration-ms="16940" started-at="2019-04-02T13:27:27Z" finished-at="2019-04-02T13:27:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginViaOTP -->
+        <test-method status="PASS" signature="End()[pri:0, instance:applicationHandling.Setup@63440df3]" name="End" is-config="true" duration-ms="2440" started-at="2019-04-02T13:27:44Z" finished-at="2019-04-02T13:27:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- applicationHandling.Setup -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+<!--   <test name="Emulator1" >
+  	<parameter name = "udid" value="85b65151454a4f54"/> 
+    <classes>
+       <class name="applicationHandling.Setup" />
+    </classes>
+  </test> -->
+ 
+  <test name="Emulator2">
+    <parameter name = "udid" value="50444f5434573398"/>    
+    <classes>
+      <class name="applicationHandling.Setup"/>
+    </classes>
+  </test>
+</suite>
